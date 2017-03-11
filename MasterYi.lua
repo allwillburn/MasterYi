@@ -35,7 +35,7 @@ local MasterYiMenu = Menu("MasterYi", "MasterYi")
 MasterYiMenu:SubMenu("Combo", "Combo")
 
 MasterYiMenu.Combo:Boolean("Q", "Use Q in combo", true)
-MasterYiMenu.Combo:Boolean("W", "Use W in combo", true)
+MasterYiMenu.Combo:Boolean("W", "Use W AA Reset", true)
 MasterYiMenu.Combo:Boolean("E", "Use E in combo", true)
 MasterYiMenu.Combo:Boolean("R", "Use R in combo", true)
 MasterYiMenu.Combo:Slider("RX", "X Enemies to Cast R",3,1,5,1)
